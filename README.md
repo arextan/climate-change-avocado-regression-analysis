@@ -15,7 +15,11 @@ For simplicity, average temperature change in Celsius is the variable representi
 ## Analysis
 ### Exploratory Data Analysis
 
+![image13](https://user-images.githubusercontent.com/105828433/208839783-47c664e2-774d-4639-a4f8-09572d7c14af.gif)
 ![image16](https://user-images.githubusercontent.com/105828433/208839377-bf6a30dc-b95c-48a0-8721-07ed6aa67c33.gif)
+
+Total Global Avocado Yield vs. Global Temperature Change
+![image18](https://user-images.githubusercontent.com/105828433/208839926-d21e47cf-2aa1-4e2c-a850-5201585a4b75.png)
 
 For the initial exploratory analysis, the data obtained were right skewed. For example, the right skew in avocado yield by country demonstrates that only a few countries have produced more than two hundred thousand hectograms per hectare of avocado yield per year since the 1960s. This meant only a few countries would be identified as a top producing country. This right skew phenomenon can also be seen in the methane, fertilizer, and carbon dioxide data. By log transforming these data, the data illustrated a better correlation matrix.
 
