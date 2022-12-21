@@ -25,12 +25,12 @@ While global average temperature and avocado yield have increased since 1960, fu
 ## Data Analysis
 ### Exploratory Data Analysis
 
-Distribution of Avocado Yield
+Distribution of Avocado Yield\
 ![download](https://user-images.githubusercontent.com/105828433/208842313-3ad2dfbb-5168-4a6d-97d4-8427e1dd8419.jpg)
 
 For the initial exploratory analysis, the data obtained were right skewed. For example, the right skew in avocado yield by country demonstrates that only a few countries have produced more than two hundred thousand hectograms per hectare of avocado yield per year since the 1960s. This meant only a few countries would be identified as a top producing country. This right skew phenomenon can also be seen in the methane, fertilizer, and carbon dioxide data. By log transforming these data, the data illustrated a better correlation matrix.
 
-Distribution of Log Avocado Yield
+Distribution of Log Avocado Yield\
 ![download (1)](https://user-images.githubusercontent.com/105828433/208842342-a374107c-b22d-4435-879a-113029268b6a.jpg)
 
 ### Regression
