@@ -25,7 +25,11 @@ While global average temperature and avocado yield have increased since 1960, fu
 ## Data Analysis
 ### Exploratory Data Analysis
 
+![download](https://user-images.githubusercontent.com/105828433/208842313-3ad2dfbb-5168-4a6d-97d4-8427e1dd8419.jpg)
+
 For the initial exploratory analysis, the data obtained were right skewed. For example, the right skew in avocado yield by country demonstrates that only a few countries have produced more than two hundred thousand hectograms per hectare of avocado yield per year since the 1960s. This meant only a few countries would be identified as a top producing country. This right skew phenomenon can also be seen in the methane, fertilizer, and carbon dioxide data. By log transforming these data, the data illustrated a better correlation matrix.
+
+![download (1)](https://user-images.githubusercontent.com/105828433/208842342-a374107c-b22d-4435-879a-113029268b6a.jpg)
 
 ### Regression
 Running a regression showed that variables we have chosen are significant as all of your p-values were below 5%. However, with a low R-squared value of 8.4%, only 8.4% of the variability can be accounted for with all of these variables. This led to the second regression done in this project involving countries as our dummy variable. By splitting the data per country and regressing per country, we can gain further insights on our regression such as how R-squared values are different for every country, whether a country’s yield is positively or negatively with temperature change, or whether temperature change is statistically significant on a country’s avocado yield or not.
