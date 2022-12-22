@@ -35,10 +35,10 @@ Distribution of Log Avocado Yield\
 
 ### Regression
 #### First Regression
-Running a regression showed that variables we have chosen are significant as all of your p-values were below 5%. However, with a low R-squared value of 8.4%, only 8.4% of the variability can be accounted for with all of these variables. 
+Running a regression with the log transformed control variables and temperature change as the dependent variable had the following results. With 5% as the significant threshold, the control variable's p-values are below the 5% and thus significant. However, the model has a low R-squared value of 8.4%, meaning only 8.4% of the variability can be accounted for with all of these variables. 
 
 #### Second Regression
-This led to the second regression done in this project involving countries as our dummy variable. By splitting the data per country and regressing per country, we can gain further insights on our regression such as how R-squared values are different for every country, whether a country’s yield is positively or negatively with temperature change, or whether temperature change is statistically significant on a country’s avocado yield or not.
+In order to improve the R-squared, another second regression is performed with an alternative method that utilizes the different countries as a dummy variable. By splitting the data per country and regressing per country, the model's strength can be differentiated depending on the country. From the results, every country had different R-squared values, different positive or negative correlation with temperature change, and statistical significance with temperature change.
 
 ![download](https://user-images.githubusercontent.com/105828433/208847138-5100d4e0-992c-4c80-b6b3-25b5146166d8.jpg)
 
