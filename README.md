@@ -30,6 +30,8 @@ Distribution of Avocado Yield &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &
 
 For the initial exploratory analysis, the data obtained were right skewed. For example, the right skew in avocado yield by country demonstrates that only a few countries have produced more than two hundred thousand hectograms per hectare of avocado yield per year since the 1960s. This meant only a few countries would be identified as a top producing country. This right skew phenomenon can also be seen in the methane, fertilizer, and carbon dioxide data. By log transforming these data, the data illustrated a better correlation matrix.
 
+![newplot](https://user-images.githubusercontent.com/105828433/209248278-de93fff3-bb58-470b-bf0a-b42cacc98d73.png)
+
 ### Regression
 #### First Regression
 Running a regression with the temperature change and the other log transformed control variables had the following results. With 5% as the significant threshold, the control variable's p-values were all below 5% and thus significant. However, the model has a low adjusted R-squared value of 8.4%, meaning only 8.4% of the variability can be accounted for with all of these variables. 
