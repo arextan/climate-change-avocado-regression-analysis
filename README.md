@@ -25,19 +25,16 @@ While global average temperature and avocado yield have increased since 1960, fu
 ## Data Analysis
 ### Exploratory Data Analysis
 
-Distribution of Avocado Yield\
-![download](https://user-images.githubusercontent.com/105828433/208842313-3ad2dfbb-5168-4a6d-97d4-8427e1dd8419.jpg)
+Distribution of Avocado Yield &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Distribution of Log Avocado Yield\
+![download](https://user-images.githubusercontent.com/105828433/208842313-3ad2dfbb-5168-4a6d-97d4-8427e1dd8419.jpg) ![download (1)](https://user-images.githubusercontent.com/105828433/208842342-a374107c-b22d-4435-879a-113029268b6a.jpg)
 
 For the initial exploratory analysis, the data obtained were right skewed. For example, the right skew in avocado yield by country demonstrates that only a few countries have produced more than two hundred thousand hectograms per hectare of avocado yield per year since the 1960s. This meant only a few countries would be identified as a top producing country. This right skew phenomenon can also be seen in the methane, fertilizer, and carbon dioxide data. By log transforming these data, the data illustrated a better correlation matrix.
-
-Distribution of Log Avocado Yield\
-![download (1)](https://user-images.githubusercontent.com/105828433/208842342-a374107c-b22d-4435-879a-113029268b6a.jpg)
 
 ### Regression
 #### First Regression
 Running a regression with the temperature change and the other log transformed control variables had the following results. With 5% as the significant threshold, the control variable's p-values were all below 5% and thus significant. However, the model has a low adjusted R-squared value of 8.4%, meaning only 8.4% of the variability can be accounted for with all of these variables. 
 
-![Screenshot 2022-12-22 145834](https://user-images.githubusercontent.com/105828433/209239301-f61bce99-aaa8-4a3c-9ce5-4b9dd8222d35.png)
+![Screenshot 2022-12-22 145834](https://user-images.githubusercontent.com/105828433/209243873-eb6469e2-d592-4caa-a9c1-b2430af7acdd.png)
 
 #### Second Regression
 In order to improve the R-squared, another regression is performed with an alternative method that utilizes the different countries as a dummy variable. By regressing per country, the model's strength can be differentiated depending on the country. From the results, every country had different R-squared values, different positive or negative correlation with temperature change, and statistical significance with temperature change.
