@@ -52,4 +52,4 @@ In short, the null hypothesis that climate change does not have an effect on avo
 
 ### Limitations
 With that said, it is important to know that the findings are limited to the factors that were investigated. There are other factors mentioned in the beginning that contribute to the production of avocados as well as other factors that account for climate change such as air quality, soil pH, and etc. which are not examined and should be accounted for when considering how climate change affects overall avocado yield. Furthermore, there are limitations within our data in terms of recency as it only dates back to the 1960s. Lastly, demand should be factored in via having the year as a possible control variable to ensure that the increase in yield was not due to the rise in popularity of the crop rather due to the sole factor of change in temperature.
-* Note Plotly charts do not appear in the Github preview of Jupyter Notebook
+*Note Plotly charts do not appear in the Github preview of Jupyter Notebook
